@@ -1,0 +1,141 @@
+body{
+    background-color:#ececec;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: 'FontHead';
+    src: url(fonts/fontHead.ttf);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FontContent';
+    src: url(fonts/fontContent.ttf);
+    font-style: normal;
+}
+
+.contentBlock{
+    height: 200px;
+}
+
+.contentBlockImg{
+    width: 90px;
+    height: 90px;
+    margin: 0 auto;
+    display: block;
+}
+
+.linkImg{
+    width: 80px;
+    height: 37px;
+    margin: 0 auto;
+    display: block;
+}
+
+.diplomImg{
+    width: 600px;
+    height: 800px;
+    margin: 0 auto;
+    display: block;
+}
+
+a {
+    text-decoration: none; /* Убирает подчеркивание для ссылок */
+    color: #202020;
+}
+a:hover {
+    text-decoration: underline; /* Добавляем подчеркивание при наведении курсора на ссылку */
+    color: #202020;
+}
+
+/*.projectName1Img{*/
+    /*width: 140px;*/
+    /*height: 53px;*/
+    /*margin: 0 auto;*/
+    /*display: block;*/
+/*}*/
+
+/*.projectName2Img{*/
+    /*width: 140px;*/
+    /*height: 23px;*/
+    /*margin: 0 auto;*/
+    /*display: block;*/
+/*}*/
+
+
+
+.red{
+    color: #d80300;
+}
+
+.green{
+    color: #00c118;
+}
+
+
+
+
+.avatarProfile{
+    width: 100px;
+    height: 100px;
+    top: 23px;
+    right: 30px;
+    display: block;
+    float: right;
+    vertical-align: middle;
+    position: absolute;
+}
+
+.centerVertical{
+    vertical-align: middle;
+    height: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.superColor{
+    color: #00d1d2;
+}
+
+.headerText{
+    font-family: FontHead;
+    color: #ffffff;
+    font-weight: normal;
+    margin: 0px;
+    word-wrap: break-word;
+}
+
+.contentText{
+    font-family: FontContent;
+    color: #202020;
+    font-weight: normal;
+    margin: 0px;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+
+.megaThrone{
+    background: #202020;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.shadow {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+}
+
+.shadow2 {
+    box-shadow: 0 0 20px rgba(0,0,0,1); /* Параметры тени */
+}
+
+*{
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
