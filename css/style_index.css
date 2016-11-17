@@ -38,7 +38,7 @@ body{
 }
 
 a {
-    text-decoration: none; /* Убирает подчеркивание для ссылок */
+    /*text-decoration: none; !* Убирает подчеркивание для ссылок *!*/
     color: #202020;
 }
 a:hover {
@@ -92,7 +92,7 @@ a:hover {
 }
 
 .superColor{
-    color: #00d1d2;
+    color: #00e71a;
 }
 
 .headerText{
