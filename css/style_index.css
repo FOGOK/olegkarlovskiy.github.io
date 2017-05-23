@@ -16,7 +16,7 @@ body{
 }
 
 .contentBlock{
-    height: 200px;
+    height: auto;
 }
 
 .contentBlockImg{
@@ -26,9 +26,23 @@ body{
     display: block;
 }
 
+.contentYandexTranslater{
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
 .linkImg{
-    width: 80px;
-    height: 37px;
+    width: 130px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.tableStyle{
+    width: auto;
+    height: auto;
     margin: 0 auto;
     display: block;
 }
